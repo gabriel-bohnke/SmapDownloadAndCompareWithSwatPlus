@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document id="smap_data">
+		<Style id="transBluePoly">
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>bf994c00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="transOrangePoly">
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7d3399ff</color>
+			</PolyStyle>
+		</Style>
+		<Placemark id="0">
+			<name>0</name>
+			<description>2020-11-04 05:51:26</description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							8.6877594, 37.6913605, 100
+							8.6877594, 35.6854019, 100
+							12.0383816, 35.6854019, 100
+							12.0383816, 37.6913605, 100
+							8.6877594, 37.6913605, 100
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="1">
+			<styleUrl>#transBluePoly</styleUrl>
+			<name>1</name>
+			<description>Requested bounding box</description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							9.075181780910482, 36.539747306557665, 100
+							9.075181780910482, 35.789381002622484, 100
+							9.648289096658775, 35.789381002622484, 100
+							9.648289096658775, 36.539747306557665, 100
+							9.075181780910482, 36.539747306557665, 100
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Document>
+</kml>

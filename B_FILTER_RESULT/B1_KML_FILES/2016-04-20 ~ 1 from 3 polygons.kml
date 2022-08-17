@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document id="smap_data">
+		<Style id="transBluePoly">
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>bf994c00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="transOrangePoly">
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7d3399ff</color>
+			</PolyStyle>
+		</Style>
+		<Placemark id="0">
+			<name>0</name>
+			<description>2016-04-20 05:42:11</description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.5404563, 37.4254684, 100
+							6.5404563, 35.4262009, 100
+							9.8910789, 35.4262009, 100
+							9.8910789, 37.4254684, 100
+							6.5404563, 37.4254684, 100
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="1">
+			<name>1</name>
+			<description>2016-04-20 05:42:32</description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.1670122, 36.1966362, 100
+							6.1670122, 34.2271767, 100
+							9.3309126, 34.2271767, 100
+							9.3309126, 36.1966362, 100
+							6.1670122, 36.1966362, 100
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="2">
+			<name>2</name>
+			<description>2016-04-20 05:42:35</description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.2603736, 35.935791, 100
+							6.2603736, 33.8876877, 100
+							9.5176344, 33.8876877, 100
+							9.5176344, 35.935791, 100
+							6.2603736, 35.935791, 100
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="3">
+			<styleUrl>#transBluePoly</styleUrl>
+			<name>3</name>
+			<description>Requested bounding box</description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							9.075181780910482, 36.539747306557665, 100
+							9.075181780910482, 35.789381002622484, 100
+							9.648289096658775, 35.789381002622484, 100
+							9.648289096658775, 36.539747306557665, 100
+							9.075181780910482, 36.539747306557665, 100
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Document>
+</kml>

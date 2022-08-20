@@ -43,10 +43,10 @@ def plot_subbasin_data(series1_df, series2_df, subbasin_index):
 def main():
 
     # F_STATISTICS_INPUT directory is expected to have been created in a previous step
-    sw_final_mean_df = read_sqlite_table('F_STATISTICS_INPUT/swatplus_smap_merge_new.sqlite', 'subbasin_sw_final_mon',
+    sw_final_mean_df = read_sqlite_table('F_STATISTICS_INPUT/swatplus_smap_merge.sqlite', 'subbasin_sw_final_mon',
                                          ['period', 'subbasin', 'sw_final'])
 
-    soil_moisture_mean_df = read_sqlite_table('F_STATISTICS_INPUT/swatplus_smap_merge_new.sqlite', 'subbasin_soil_moisture_mon',
+    soil_moisture_mean_df = read_sqlite_table('F_STATISTICS_INPUT/swatplus_smap_merge.sqlite', 'subbasin_soil_moisture_mon',
                                          ['period', 'subbasin', 'soil_moisture_1km'])
 
     for index in range(19):  # could be dynamic

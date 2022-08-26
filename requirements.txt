@@ -14,7 +14,7 @@
 # ... Installing collected packages: GDAL
 # ... Successfully installed GDAL-3.4.1
 #
-# Other libraries can now be installed all at once from (Pycharm) terminal with: pip install requirements.txt
+# Other libraries can now be installed all at once from (Pycharm) terminal with: pip install -r requirements.txt
 #
 pandas~=1.4.1
 geopandas~=0.10.2 

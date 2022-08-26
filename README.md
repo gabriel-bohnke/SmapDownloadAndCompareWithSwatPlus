@@ -2,6 +2,8 @@
 
 This project represents a processing pipeline of SMAP rasters and of SWAT+ model output, with itermediate storage of results after each step. Restart of pipeline is possible at any step, without having to rerun previous steps.
 
+<b>Note before cloning project:</b> read comments in requirements.txt regarding installation of GDAL, rasterio and Fiona libraries
+
 Details of processing steps:
 
 <b><i>01_search_and_filter_h5.py</i></b>

@@ -1,10 +1,26 @@
-Fiona~=1.8.21
-geopandas~=0.10.2
-rasterio~=1.2.10
+# GDAL, rasterio and Fiona need to be installed from wheels, before installing some other libraries
+#
+# Instructions (after creation of virtual environment): 
+#
+# Download wheels matching your Python version from:
+# - GDAL: https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal
+# - rasterio: https://www.lfd.uci.edu/~gohlke/pythonlibs/#rasterio
+# - Fiona: https://www.lfd.uci.edu/~gohlke/pythonlibs/#fiona
+# Install downloaded files from (Pycharm) terminal: pip install <full path to wheel>
+#
+# Example for GDAL with project 'pythonProject01' running Python version 3.8:
+# (venv) C:\Users\<user>\PycharmProjects\pythonProject01>pip install C:\Users\<user>\Downloads\GDAL-3.4.1-cp38-cp38-win_amd64.whl 
+# ... Processing c:\users\<user>\downloads\gdal-3.4.1-cp38-cp38-win_amd64.whl
+# ... Installing collected packages: GDAL
+# ... Successfully installed GDAL-3.4.1
+#
+# Other libraries can now be installed all at once from (Pycharm) terminal with: pip install requirements.txt
+#
 pandas~=1.4.1
+geopandas~=0.10.2 
 matplotlib~=3.5.1
 numpy~=1.22.2
 svgutils~=0.3.4
-Shapely~=1.8.1.post1
 h5py~=3.6.0
 pandasql~=0.7.3
+openpyxl~=3.0.10
